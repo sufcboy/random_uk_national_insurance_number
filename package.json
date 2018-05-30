@@ -1,0 +1,40 @@
+{
+  "name": "random_uk_nino",
+  "version": "1.0.0",
+  "description": "Generates a random valid UK national insurance number",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter progress test/testSetup.js \"test/*.test.js\"",
+    "build": "babel-node build/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sufcboy/random_uk_national_insurance_number.git"
+  },
+  "keywords": [
+    "national",
+    "insurance",
+    "uk",
+    "random",
+    "testing"
+  ],
+  "author": "Nick Bennett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sufcboy/random_uk_national_insurance_number/issues"
+  },
+  "homepage": "https://github.com/sufcboy/random_uk_national_insurance_number#readme",
+  "devDependencies": {
+    "babel-cli": "6.16.0",
+    "babel-core": "6.17.0",
+    "babel-loader": "6.2.5",
+    "babel-preset-latest": "6.16.0",
+    "babel-register": "6.16.3",
+    "chai": "3.5.0",
+    "chalk": "1.1.3",
+    "eslint": "3.8.1",
+    "eslint-plugin-import": "2.12.0",
+    "mocha": "5.2.0",
+    "webpack": "1.13.2"
+  }
+}

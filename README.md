@@ -1,2 +1,5 @@
-# random_uk_national_insurance_number
+# Random UK national insurance number
 Generates a random valid UK National insurance number
+
+## Installation 
+
