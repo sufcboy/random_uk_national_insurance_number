@@ -1,6 +1,6 @@
 {
   "name": "random_uk_nino",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generates a random valid UK national insurance number",
   "main": "index.js",
   "scripts": {
