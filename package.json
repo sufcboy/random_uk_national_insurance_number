@@ -2,7 +2,7 @@
   "name": "random_uk_nino",
   "version": "1.0.1",
   "description": "Generates a random valid UK national insurance number",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "test": "mocha --reporter progress test/testSetup.js \"test/*.test.js\"",
     "build": "babel index.js -d dist"
