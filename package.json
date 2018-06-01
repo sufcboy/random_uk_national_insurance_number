@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --reporter progress test/testSetup.js \"test/*.test.js\"",
-    "build": "babel-node build/build.js"
+    "build": "babel index.js -d dist"
   },
   "repository": {
     "type": "git",
@@ -36,5 +36,6 @@
     "eslint-plugin-import": "2.12.0",
     "mocha": "5.2.0",
     "webpack": "1.13.2"
-  }
+  },
+  "dependencies": {}
 }

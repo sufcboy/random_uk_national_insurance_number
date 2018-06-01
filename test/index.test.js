@@ -1,8 +1,8 @@
 import {expect} from 'chai';
-import RandomNino from "../index";
+import {randomNino} from "../index";
 
 describe('randomNino', () => {
-    let randomNino = new RandomNino();
+    // let randomNino = new RandomNino();
 
     it('should be defined', () => {
         expect(randomNino).to.not.equal(undefined);
