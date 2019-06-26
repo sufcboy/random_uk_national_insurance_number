@@ -25,8 +25,8 @@
   },
   "homepage": "https://github.com/sufcboy/random_uk_national_insurance_number#readme",
   "devDependencies": {
-    "babel-cli": "7.4.*",
-    "babel-core": "7.4.*",
+    "babel-cli": "6.26.*",
+    "babel-core": "6.26.*",
     "babel-loader": "8.0.*",
     "babel-preset-latest": "6.16.0",
     "babel-register": "6.26.*",
