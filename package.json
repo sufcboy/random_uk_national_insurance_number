@@ -34,7 +34,7 @@
     "chalk": "2.4.*",
     "eslint": "6.0.*",
     "eslint-plugin-import": "2.18.*",
-    "mocha": "6.1.*",
+    "mocha": "10.2.*",
     "webpack": "4.35.*"
   },
   "dependencies": {}
